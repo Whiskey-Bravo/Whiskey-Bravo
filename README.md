@@ -1,16 +1,16 @@
-### Hi there 👋
+```py
+def school(time, money):
+    knowledge = 0
+    inSchool = True
 
-<!--
-**Whiskey-Bravo/Whiskey-Bravo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    while inSchool:
+        knowledge += 1
+        money -= 100
+        time -= 200
+        sanity = (money - time - knowledge) / 1000
 
-Here are some ideas to get you started:
+        if knowledge > 10:
+            inSchool = False 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    return sanity
+```

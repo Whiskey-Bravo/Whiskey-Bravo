@@ -1,4 +1,5 @@
-```pyclass Life:
+```py
+class Life:
     def __init__(self, name: str) -> None:
         self.name = name
         self.rizz = float("inf")
